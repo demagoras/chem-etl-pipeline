@@ -78,12 +78,6 @@ Using RDKit descriptors:
 
 Compounds are evaluated using **Lipinski's Rule of Five**, so molecules with more than one violation are excluded and recorded separately.
 
-Rules:
-* MW < 500 Da
-* LogP ≤ 5
-* H-bond donors ≤ 5
-* H-bond acceptors ≤ 10
-
 ### 7. Molecular Visualization
 
 Accepted molecules are rendered as a grid image.
