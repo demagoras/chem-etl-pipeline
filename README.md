@@ -118,7 +118,7 @@ MW: 180.16 | Phenol: NO | N: 0
 | OCC                 | Deduplication  | Duplicate Structure          |
 | Cyclosporine        | Filtering      | Failed Lipinski Rule of Five |
 
-### Image ``
+### Image
 
 <img src="https://github.com/demagoras/chem-etl-pipeline/blob/main/example_grid.png" width="650" height="650">
 
