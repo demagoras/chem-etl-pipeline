@@ -100,23 +100,23 @@ MW: 180.16 | Phenol: NO | N: 0
 
 ## Example Output
 
-**Note**: only three molecules are shown in each table.
+**Note**: only three molecules are shown in each table, and I wrote their names instead of displaying their SMILES so it's easier to read.
 
 ### Clean Dataset
 
 | SMILES                | MolWt  | LogP | H-Donors | H-Acceptors | Lipinski_Violations | Contains_Phenol | Nitrogen_Count |
 | --------------------- | ------ | ---- | -------- | ----------- | ------------------- | --------------- | -------------- |
-| CC(=O)Oc1ccccc1C(=O)O | 180.16 | 1.31 | 1        | 3           | 0                   | NO              | 0              |
-| Oc1ccccc1             | 94.11  | 1.39 | 1        | 1           | 0                   | YES             | 0              |
-| CC(=O)Nc1ccccc1       | 135.17 | 1.64 | 1        | 1           | 0                   | NO              | 1              |
+| Aspirin               | 180.16 | 1.31 | 1        | 3           | 0                   | NO              | 0              |
+| Phenol                | 94.11  | 1.39 | 1        | 1           | 0                   | YES             | 0              |
+| Acetanilide           | 135.17 | 1.64 | 1        | 1           | 0                   | NO              | 1              |
 
 ### Exclusion Log
 
 | Identifier          | Pipeline Stage | Reason                       |
 | ------------------- | -------------- | ---------------------------- |
 | NOT_A_SMILES_STRING | Sanitization   | Invalid SMILES Syntax        |
-| OCC                 | Deduplication  | Duplicate Structure          |
-| Cyclosporine        | Filtering      | Failed Lipinski Rule of Five |
+| Ethanol             | Deduplication  | Duplicate Structure          |
+| Cyclosporine A      | Filtering      | Failed Lipinski Rule of Five |
 
 ### Image
 
